@@ -55,15 +55,14 @@ sliderOne =
       
     }
 
-    next(audio:any,i) {  
-      i ++
-      this.slides.slideNext()
-      setTimeout(()=>{
-        this.play(audio)
-        },4000)
+    next() {  
+      
+      this.slides.slideNext();
+      
+
 
     
-    }
+}
     prev() {   
       this.slides.slidePrev(); 
     }
